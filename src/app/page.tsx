@@ -24,7 +24,7 @@ const Home = async () => {
             For You.
           </h1>
           <p className='mt-6 text-lg max-w-prose text-muted-foreground'>
-          Whether you're a first-time buyer, seasoned investor, or simply curious about the housing market, HousePulse is here to help you uncover the true value of properties. Say goodbye to guesswork 
+          Whether you are a first-time buyer, seasoned investor, or simply curious about the housing market, HousePulse is here to help you uncover the true value of properties. Say goodbye to guesswork 
           </p>
           <div className='mt-6 flex gap-4'>
             <Button>Get Started</Button>

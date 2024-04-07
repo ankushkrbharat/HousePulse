@@ -37,8 +37,8 @@ const Navitems = () => {
     <>
          {navdata.map((item)=>(
                 <div id={item.id} key={item.id} className="flex flex-row gap-4" >
-                <Link href={item.route} className="flex ">
-                    <Button className={cn(item.route==path&&"bg-primary","hover:bg-primary/5 hover:text-primary hover:light:text-black flex gap-2")} variant={"ghost"}><span className="w-6 h-6">{item.icon??""}</span>{item.name}</Button>
+                <Link href={item.route} key={item.id} className="flex ">
+                    <Button key={item.id} className={cn(item.route==path&&"bg-primary","hover:bg-primary/5 hover:text-primary hover:light:text-black flex gap-2")} variant={"ghost"}><span className="w-6 h-6" id={item.id}>{item.icon??""}</span>{item.name}</Button>
                 </Link>
                 </div>
             ))}
